@@ -1,7 +1,7 @@
 //Construction with a FOR loop
 
 let randomNum = Math.floor(Math.random() * 100);
-console.log( randomNum);
+// console.log( randomNum); //enable to see the system guessed number from the console
 
 for (let chance = 0; chance < 5; ){
     let user= +prompt("Enter numbers between 1-100");
@@ -29,7 +29,7 @@ if (chance==5) {
 
 /*
 let randomNum = Math.floor(Math.random() * 100);
-console.log( randomNum);
+//console.log( randomNum); //enable to see the system guessed number from the console
 let hak=0;
 while ( chance < 5) {
     let user= +prompt("Enter numbers between 1-100");
